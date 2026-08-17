@@ -385,8 +385,9 @@ script = ExtResource("1_fvtld")
 [node name="BodySprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -2)
 sprite_frames = SubResource("SpriteFrames_hp4bs")
-animation = &"normal_right"
+animation = &"normal_down"
 autoplay = "normal_right"
+frame_progress = 0.6002
 
 [node name="ArmEffectSprite2D" type="AnimatedSprite2D" parent="."]
 visible = false
